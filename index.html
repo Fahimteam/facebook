@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Facebook</title>
-    <link rel="stylesheet" href="style/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/fontawesome.min.css"
+    />
+  </head>
+  <body>
     <header>
-        <div class="cover">
-            <img src="/cover.jpg" alt="">
-           
+      <nav class="nav-container">
+        <div class="search">
+            <li><i class="fa-brands fa-facebook"></i></li>
+            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+            <input type="text" name="" id="" placeholder="Search here" />
+        </div>
+        <div class="media">
+          <li><i class="fa-solid fa-house"></i></li>
+          <li><i class="fa-solid fa-video"></i></li>
+          <li><i class="fa-solid fa-shop"></i></li>
+          <li><i class="fa-solid fa-people-group"></i></li>
+          <li><i class="fa-solid fa-gamepad"></i></li>
+        </div>
+        <div class="nav-about">
+            <li><i class="fa-brands fa-facebook-messenger"></i></li>
+            <li><i class="fa-regular fa-bell"></i></li>
+            <li><img src="./profile.jpg" alt=""></li>
+        </div>
+      </nav>
+      <div class="cover">
+        <img src="/cover.jpg" alt="" />
 
+        <div class="cover-p">
+          <p>
+            <i class="fa-solid fa-camera"></i
+            ><span style="padding-left: 10px"></span>Create with Avatar
+          </p>
+          <p>
+            <i class="fa-solid fa-user-tie"></i>
+            <span style="padding-left: 10px"></span>Edit cover photo
+          </p>
         </div>
-        <div class="cover-container">
-            <p>Create with Avatar</p>
-            <p>Edit cover photo</p>
-        </div>
+      </div>
     </header>
-</body>
+  </body>
 </html>
