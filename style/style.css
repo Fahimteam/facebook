@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cover{
+    height: 344px;
+    width: 940px;
+    margin: 0 auto;
+    /* border: 1px solid green; */
+    border-radius: 5px;
+    
+}
+.cover img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    object-position: center;
+}
